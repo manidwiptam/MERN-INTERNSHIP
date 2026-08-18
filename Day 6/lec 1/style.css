@@ -1,0 +1,334 @@
+/* ==================================================
+   RESET
+================================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ==================================================
+   BODY
+================================================== */
+
+body {
+    min-height: 100vh;
+
+    background-color: #1E090C;
+
+    font-family: Georgia, "Times New Roman", serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 40px 20px;
+}
+
+
+/* ==================================================
+   CARD
+================================================== */
+
+.card {
+    width: 620px;
+
+    background-color: #FFF5F0;
+
+    border-radius: 20px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 10px 35px rgba(0, 0, 0, 0.35);
+}
+
+
+/* ==================================================
+   VIDEO / IMAGE
+================================================== */
+
+.card-image {
+    width: 100%;
+    height: 310px;
+
+    display: block;
+
+    object-fit: cover;
+}
+
+
+/* ==================================================
+   CARD CONTENT
+================================================== */
+
+.card-content {
+    padding: 30px 32px 22px;
+}
+
+
+/* ==================================================
+   FEATURED BADGE
+================================================== */
+
+.badge {
+    display: inline-block;
+
+    background-color: #E8B9A8;
+
+    color: #651F25;
+
+    padding: 4px 11px;
+
+    border-radius: 20px;
+
+    font-size: 16px;
+
+    font-weight: normal;
+}
+
+
+/* ==================================================
+   TITLE
+================================================== */
+
+.card-content h1 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+    font-size: 32px;
+
+    color: #2A1013;
+}
+
+
+/* ==================================================
+   DESCRIPTION
+================================================== */
+
+.card-content p {
+    font-size: 20px;
+
+    line-height: 1.3;
+
+    color: #5F4545;
+
+    margin-bottom: 20px;
+}
+
+
+/* ==================================================
+   LEARN MORE
+================================================== */
+
+.learn-more {
+    width: 100%;
+    height: 53px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 7px;
+
+    background-color: #A91F2B;
+
+    color: #FFF5F0;
+
+    text-decoration: none;
+
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition:
+        background-color 0.3s ease,
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+
+/* ==================================================
+   LEARN MORE HOVER
+================================================== */
+
+.learn-more:hover {
+    background-color: #7D1620;
+
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 7px 18px rgba(169, 31, 43, 0.4);
+}
+
+
+/* ==================================================
+   CARD INFORMATION
+================================================== */
+
+.card-info {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 20px;
+
+    font-size: 20px;
+
+    color: #5F4545;
+}
+
+
+/* ==================================================
+   DETAILS PAGE
+================================================== */
+
+.details-page {
+    width: 620px;
+
+    background-color: #FFF5F0;
+
+    padding: 40px;
+
+    border-radius: 20px;
+
+    box-shadow:
+        0 10px 35px rgba(0, 0, 0, 0.35);
+}
+
+
+/* ==================================================
+   DETAILS HEADING
+================================================== */
+
+.details-page h1 {
+    margin-bottom: 20px;
+
+    font-size: 32px;
+
+    color: #2A1013;
+}
+
+
+/* ==================================================
+   DETAILS PARAGRAPH
+================================================== */
+
+.details-page p {
+    font-size: 20px;
+
+    line-height: 1.5;
+
+    color: #5F4545;
+
+    margin-bottom: 30px;
+}
+
+
+/* ==================================================
+   BACK BUTTON
+================================================== */
+
+.back-button {
+    display: inline-block;
+
+    padding: 12px 25px;
+
+    background-color: #A91F2B;
+
+    color: #FFF5F0;
+
+    text-decoration: none;
+
+    border-radius: 7px;
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+    transition:
+        background-color 0.3s ease,
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+
+/* ==================================================
+   BACK BUTTON HOVER
+================================================== */
+
+.back-button:hover {
+    background-color: #7D1620;
+
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 7px 18px rgba(169, 31, 43, 0.4);
+}
+
+
+/* ==================================================
+   MOBILE RESPONSIVE
+================================================== */
+
+@media (max-width: 650px) {
+
+    body {
+        padding: 20px;
+    }
+
+
+    .card {
+        width: 100%;
+    }
+
+
+    .card-image {
+        height: 220px;
+    }
+
+
+    .card-content {
+        padding: 24px;
+    }
+
+
+    .card-content h1 {
+        font-size: 28px;
+    }
+
+
+    .card-content p {
+        font-size: 18px;
+    }
+
+
+    .card-info {
+        font-size: 17px;
+    }
+
+
+    .details-page {
+        width: 100%;
+
+        padding: 25px;
+    }
+
+
+    .details-page h1 {
+        font-size: 28px;
+    }
+
+
+    .details-page p {
+        font-size: 18px;
+    }
+
+}

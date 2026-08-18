@@ -1,0 +1,142 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: color-mix(in srgb, red 40%, yellow 60%);
+    
+}
+
+.logo{
+    border: 1px;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.logo:hover{
+    color: black;
+    background-color: white;
+}
+
+ul{
+    display: none;
+    list-style: none;
+}
+
+li{
+    float: left;
+    padding: 20px;
+}
+
+a{
+    padding: 7px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+    background-color: white;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+
+
+.body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: color-mix(in srgb, red 60%, yellow 40%);
+}
+
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 300px;
+    height: 100px;
+    text-decoration: none;
+    color: white;
+}
+
+.box1:hover{
+    background-color: white;
+    color: black;
+}
+
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 300px;
+    height: 100px;
+    text-decoration: none;
+}
+
+.box2:hover{
+    background-color: white;
+    color: black;
+}
+
+.box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 300px;
+    height: 100px;
+    text-decoration: none;
+}
+
+.box3:hover{
+    background-color: white;
+    color: black;
+}
+
+.box4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 300px;
+    height: 100px;
+    text-decoration: none;
+}
+
+.box4:hover{
+    background-color: white;
+    color: black;
+}
+
+.menu-btn{
+    padding-top: 10px;
+    display: block;
+}
+
+.menu-btn:hover{
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+}
+
+.show{
+    display: flex;
+}

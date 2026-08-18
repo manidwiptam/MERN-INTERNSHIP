@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    font-size: 3rem;
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.child1{
+    background-color: pink;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.child2{
+    background-color: burlywood;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.child3{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: antiquewhite;
+    height: 165px;
+    width: 100px;
+    border: 20px solid antiquewhite;
+}
