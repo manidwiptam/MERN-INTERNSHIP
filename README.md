@@ -4,10 +4,10 @@ Daily coursework and practice projects from a MERN internship.
 
 ## Repository layout
 
-- `Day 01`–`Day 13`: coursework, grouped by day and lecture.
+- `Day 01`–`Day 14`: coursework grouped by day and lecture.
 - `Assets/images`: shared image assets.
 - `Assets/video`: shared video assets.
-- `Day 13/Lecture 01/vite-project` and `Day 13/Lecture 02/intro`: Vite + React projects.
+- `Day 13/Lecture 01/vite-project`, `Day 13/Lecture 02/intro`, and `Day 14/Lecture 01/Card`: Vite + React practice projects.
 
 ## Day index
 
@@ -25,10 +25,11 @@ Daily coursework and practice projects from a MERN internship.
 | Day 10 | Lecture 01, Lecture 02, Lecture 03 |
 | Day 11 | Lecture 01 |
 | Day 13 | Lecture 01, Lecture 02 |
+| Day 14 | Lecture 01 |
 
 ## Running a Vite project
 
-From either Vite project directory, run:
+From any Vite project directory, such as `Day 13/Lecture 01/vite-project` or `Day 14/Lecture 01/Card`, run:
 
 ```bash
 npm install
