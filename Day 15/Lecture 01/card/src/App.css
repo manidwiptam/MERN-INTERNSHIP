@@ -1,0 +1,122 @@
+@import "tailwindcss";
+
+:root {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #111827;
+  background: #f3f4f6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.app-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+}
+
+.card-page {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
+
+.profile-card {
+  width: min(100%, 22rem);
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 1.5rem;
+  box-shadow: 0 24px 48px rgba(15, 23, 42, 0.12);
+  padding: 2rem 1.5rem;
+  backdrop-filter: blur(8px);
+}
+
+.profile-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.profile-image-wrap {
+  width: 7rem;
+  height: 7rem;
+  overflow: hidden;
+  border-radius: 1.25rem;
+  border: 1px solid rgba(148, 163, 184, 0.8);
+  background: #e5e7eb;
+  box-shadow: 0 12px 24px rgba(15, 23, 42, 0.1);
+}
+
+.profile-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-badge {
+  margin-top: 1rem;
+  padding: 0.35rem 0.75rem;
+  border-radius: 9999px;
+  background: #dcfce7;
+  color: #166534;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.profile-name {
+  margin: 1rem 0 0;
+  font-size: 1.65rem;
+  font-weight: 800;
+  color: #111827;
+}
+
+.profile-age,
+.profile-role {
+  margin: 0.35rem 0 0;
+  color: #4b5563;
+}
+
+.profile-button {
+  margin-top: 1.5rem;
+  width: 100%;
+  border: none;
+  border-radius: 0.9rem;
+  background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
+  color: white;
+  font-weight: 700;
+  padding: 0.8rem 1rem;
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(34, 197, 94, 0.25);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.profile-button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 12px 24px rgba(34, 197, 94, 0.3);
+}
+
+.profile-button:active {
+  transform: translateY(0);
+}
