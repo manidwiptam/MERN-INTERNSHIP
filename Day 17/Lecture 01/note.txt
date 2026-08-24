@@ -1,0 +1,68 @@
+NodeJS :
+
+> Open-Source
+> Cross-PlatForm
+> JavaScript Runtime Environment
+> Built on V8 engine
+> Created by Ryan Dahl in in 2009
+> It designed to solve CLOCK Problem
+
+
+
+Server :
+
+> Data - Anything is available in raw in Nature or singe in Nature.
+    - Data is the fuel of the future.
+    - e = mc^2 
+    - Data = Information but note vice versa.
+> Information - It is which we derived from the Data.
+> Database - Eg. MongoDB and MySql.
+    - MySql
+        Schema
+        Query
+        Table
+    - No Sql
+        Schemaless
+        Add Data
+        JSON
+> Relational Database Management System 
+
+* Networking, Basic of Cyber Security, 
+
+
+
+JavaScript :
+
+> It's follows Non-blocking method.
+> It's doesn't wait for anyone.
+
+
+
+Module :
+
+> It's a file that contains reusable code.
+    Code - can be Function or Variable or Objects.
+> It can be used in another file.
+> Uses of Module -
+    1. Keep code in a organized manner.
+    2. Reusable
+    3. Easy to use.
+    4. Help to remove redundancy.
+
+> Common JS Module Default - use "require"
+        syntax :
+            module.exports = value; ----------- Export
+            const variable = require("../filePath") ----------- Import
+
+
+> Module Export - 
+        syntax :
+            export const = name;
+            Import {var} from 'fileName'
+
+> npm - Node Package Manager
+    - npm init 
+    - creates package.json 
+    - npm install / npm;
+    - stores project info and dependencies
+
