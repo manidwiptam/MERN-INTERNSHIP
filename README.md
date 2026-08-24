@@ -4,13 +4,14 @@ Daily coursework and practice projects from a MERN internship.
 
 ## Repository layout
 
-- `Day 01`–`Day 16`: coursework grouped by day and lecture.
+- `Day 01`–`Day 17`: coursework grouped by day and lecture.
 - `Assets/images`: shared image assets.
 - `Assets/video`: shared video assets.
 - `Day 12 & 13/intro`: React practice project for the combined Day 12/13 lessons.
 - `Day 14/Lecture 01/code`: React project for Day 14.
 - `Day 15/Lecture 01/card`: Vite + React card project.
 - `Day 16`: JavaScript practice exercises and mini projects.
+- `Day 17/Lecture 01`: Express.js learning exercises and server-side practice files.
 
 ## Day index
 
@@ -31,6 +32,7 @@ Daily coursework and practice projects from a MERN internship.
 | Day 14 | Lecture 01 |
 | Day 15 | Lecture 01 |
 | Day 16 | Lecture 01, Lecture 02, Lecture 03, Lecture 04 |
+| Day 17 | Lecture 01 |
 
 ## Running a Vite project
 
@@ -43,4 +45,4 @@ npm run dev
 
 ## Notes
 
-This repository contains daily HTML, CSS, JavaScript, and React learning exercises for the internship journey.
+This repository contains daily HTML, CSS, JavaScript, React, Express.js, and mini-project exercises completed during the internship journey.
