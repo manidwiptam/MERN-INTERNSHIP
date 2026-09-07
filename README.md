@@ -24,8 +24,8 @@ The project covers:
 - `Day 16/`: JavaScript logic and DOM exercises
 - `Day 17/`: Express.js learning exercises
 - `Day 18/`: backend and Express.js practice work
-- `Day 19/`: backend/API progress and related files
-- `Day 20/`: backend module with route/controller setup
+- `Day 19/`: API learning notes and backend study material
+- `Day 20/`: backend module with route/controller setup, models, middleware, and database configuration
 - `Extra/`: additional notes and resources
 - `LICENSE`: project license
 
@@ -60,7 +60,8 @@ The project covers:
 - `Day 15/Lecture 01/card`: Vite + React card project
 - `Day 17/Lecture 01`: Express.js study and basic server-side tasks
 - `Day 18/`: backend practice with Express.js and route logic
-- `Day 20/Lecture 01/Backend`: Node/Express backend project with controllers, models, routes, and middleware
+- `Day 19/Lecture 01`: REST API learning notes and backend documentation
+- `Day 20/Lecture 01/Backend`: Node/Express backend project with controllers, models, routes, middleware, and database setup
 - `Extra/`: extra notes and study material
 
 ## Frontend setup
@@ -95,7 +96,24 @@ npm install
 node index.js
 ```
 
-Some backend folders may also use Express.js and environment variables such as `.env` for configuration.
+For Express.js projects, the app may also use:
+
+```bash
+npm install express
+node server.js
+```
+
+Some backend folders may use environment variables such as `.env`, route modules, controller folders, and database configuration files.
+
+## Current backend focus
+
+The repository currently includes backend work around:
+
+- Express.js fundamentals
+- REST API concepts
+- route and controller organization
+- middleware usage
+- database integration and environment configuration
 
 ## Notes
 
